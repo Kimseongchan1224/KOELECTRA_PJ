@@ -5,4 +5,4 @@
 <div align=center>네이버 쇼핑은 네이버 이용자와 네이버 쇼핑에 입점한 쇼핑몰 및 스마트스토어 간의 편리한 연결을 위해 상품 검색, 카테고리 분류, 가격비교, 쇼핑 컨텐츠 등을 제
 공하는 쇼핑포털 서비스이다.</div>
 
->[출처:로고](https://www.interad.com/insights/naver-shopping-search-update)&nbsp;/&nbsp;[출처:설명](https://m.searchad.naver.com/faq/view/374?from)
+>[출처:로고](https://www.interad.com/insights/naver-shopping-search-update)&nbsp;/&nbsp;[출처:설명](https://m.searchad.naver.com/faq/view/374?from) 

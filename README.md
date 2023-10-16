@@ -1,4 +1,4 @@
-# <div align=center>🍀NAVER 쇼핑몰 리뷰 감성 분석🍀</div>
+# <div align=center>🍀네이버 쇼핑몰 리뷰 감성 분석🍀</div>
 
 ![naver_shop_logo](https://github.com/Kimseongchan1224/KOELECTRA_PJ/assets/79899868/92899dc1-9bcd-458c-be78-2cd2a964e02e)
 

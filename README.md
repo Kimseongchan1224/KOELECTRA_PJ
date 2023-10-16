@@ -16,5 +16,8 @@
 
 >[출처:김세라 기자](https://www.dailycnc.com/news/articleView.html?idxno=209683)
 
-
 ## 1.2 데이터 및 모델 개요
+
+| ratings | reviews | label |
+|----------|---|---|
+| 영화 리뷰 문장 |KOELECTRA small[3]|부정(0), 긍정(1)|

@@ -21,3 +21,11 @@
 | ratings | reviews | label |
 |----------|---|---|
 | 영화 리뷰 문장 |KOELECTRA small[3]|부정(0), 긍정(1)|
+| 영화 리뷰 문장 |KOELECTRA small[3]|부정(0), 긍정(1)|
+| 영화 리뷰 문장 |KOELECTRA small[3]|부정(0), 긍정(1)|
+| 영화 리뷰 문장 |KOELECTRA small[3]|부정(0), 긍정(1)|
+| 영화 리뷰 문장 |KOELECTRA small[3]|부정(0), 긍정(1)|
+| 영화 리뷰 문장 |KOELECTRA small[3]|부정(0), 긍정(1)|
+| 영화 리뷰 문장 |KOELECTRA small[3]|부정(0), 긍정(1)|
+| 영화 리뷰 문장 |KOELECTRA small[3]|부정(0), 긍정(1)|
+

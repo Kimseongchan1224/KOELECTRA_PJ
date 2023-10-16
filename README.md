@@ -6,3 +6,8 @@
 공하는 쇼핑포털 서비스이다.</div>
 
 >[출처:로고](https://www.interad.com/insights/naver-shopping-search-update)&nbsp;/&nbsp;[출처:설명](https://m.searchad.naver.com/faq/view/374?from) 
+
+<hr>
+
+## 1.개요
+이번 프로젝트에서는 한국어 자연어 처리 모델인 KOELECTRA를 활용하여 네이버 쇼핑몰 리뷰의 긍부정 예측을 하고자 한다.

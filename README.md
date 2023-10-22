@@ -33,3 +33,6 @@
 >[출처:git/KiimKii](https://github.com/KiimKii/nsrd)
 
 ## 1.3 감성분석 순서
+
+![count](https://github.com/Kimseongchan1224/KOELECTRA_PJ/assets/79899868/904b9fad-aa94-47a7-8156-0912e1efe9a2)
+

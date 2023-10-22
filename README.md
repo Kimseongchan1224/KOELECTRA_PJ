@@ -41,3 +41,4 @@
 3. python을 활용하여 텍스트 데이터를 학습시키는 작업한다.
 4. 학습이 된 프로그램을 작동시켜 긍정과 부정으로 분류하는지 확인을 한다.
 
+>[출처:로고](https://blog.naver.com/hn03055/222730453539)&nbsp;/&nbsp;[출처:로고](http://wiki.hash.kr/index.php/%ED%8C%8C%EC%9D%B4%EC%B0%B8) 

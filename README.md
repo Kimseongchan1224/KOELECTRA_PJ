@@ -36,3 +36,6 @@
 
 ![count](https://github.com/Kimseongchan1224/KOELECTRA_PJ/assets/79899868/904b9fad-aa94-47a7-8156-0912e1efe9a2)
 
+1.리뷰 데이터를 깃허브에서 확보한다.
+2. 
+

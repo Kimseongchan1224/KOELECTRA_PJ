@@ -31,3 +31,5 @@
 | 별점 | 고객이 남긴 텍스트 리뷰 | 부정(0), 긍정(1) | 
 
 >[출처:git/KiimKii](https://github.com/KiimKii/nsrd)
+
+## 1.3 감성분석 순서

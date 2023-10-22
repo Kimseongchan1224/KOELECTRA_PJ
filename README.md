@@ -41,4 +41,19 @@
 3. python을 활용하여 텍스트 데이터를 학습시키는 작업한다.
 4. 학습이 된 프로그램을 작동시켜 긍정과 부정으로 분류하는지 확인을 한다.
 
->[출처:로고](https://blog.naver.com/hn03055/222730453539)&nbsp;/&nbsp;[출처:로고](http://wiki.hash.kr/index.php/%ED%8C%8C%EC%9D%B4%EC%B0%B8) 
+>[출처:로고](https://blog.naver.com/hn03055/222730453539)&nbsp;/&nbsp;[출처:로고](http://wiki.hash.kr/index.php/%ED%8C%8C%EC%9D%B4%EC%B0%B8)
+
+## 2. 데이터
+
+### 2.1 데이터 소스
+
+### 2.2 탐색적 데이터 분석
+
+### 2.3 데이터 전처리
+
+## 3. 결과
+
+### 3.1 계발환경
+| <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/> | <img src="https://img.shields.io/badge/PyTorch-E34F26?style=flat-square&logo=PyTorch&logoColor=white"/> | <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=Jupyter&logoColor=white"/> |
+
+

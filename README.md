@@ -17,6 +17,10 @@
 >[출처:소비자경제](https://www.dailycnc.com/news/articleView.html?idxno=209683)
 
 ## 1.2 데이터 및 모델 개요
+- 언어 : 한국어
+- 출처 : 네이버 쇼핑
+- 수집기간 : 2020-06 ~ 2020-07
+- 데이터 건수 : 200,000건
 
 >[출처:git/KiimKii](https://github.com/KiimKii/nsrd)
 

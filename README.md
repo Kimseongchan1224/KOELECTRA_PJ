@@ -22,6 +22,20 @@
 - 수집기간 : 2020-06 ~ 2020-07
 - 데이터 건수 : 200,000건
 
+### 데이터 분포
+
+<table>
+<tr><th></th><th>별점</th><th>건수</th></tr>
+<tr><th rowspan='2'>긍정 (99,963)</th><th>5</th><td>81,177</td></tr>
+<tr><th>4</th><td>18,786</td></tr>
+<tr><th rowspan='2'>부정 (100,037)</th><th>2</th><td>63,989</td></tr>
+<tr><th>1</th><td>36,048</td></tr>
+<tr><th colspan='2'>계</th><td>200,000</td></tr>
+</table>
+
+
+[네이버 쇼핑](https://shopping.naver.com/)에서 제품별 리뷰를 별점과 텍스트 리뷰를 함께 수집한 데이터이다.
+
 데이터 미리보기
 ```
 5	배공빠르고 굿

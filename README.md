@@ -16,23 +16,11 @@
 
 >[출처:소비자경제](https://www.dailycnc.com/news/articleView.html?idxno=209683)
 
-## 1.2 데이터 및 모델 개요
+### 1.2 데이터 및 모델 개요
 - 언어 : 한국어
 - 출처 : 네이버 쇼핑
 - 수집기간 : 2020-06 ~ 2020-07
 - 데이터 건수 : 200,000건
-
-### 데이터 분포
-
-<table>
-<tr><th></th><th>별점</th><th>건수</th></tr>
-<tr><th rowspan='2'>긍정 (99,963)</th><th>5</th><td>81,177</td></tr>
-<tr><th>4</th><td>18,786</td></tr>
-<tr><th rowspan='2'>부정 (100,037)</th><th>2</th><td>63,989</td></tr>
-<tr><th>1</th><td>36,048</td></tr>
-<tr><th colspan='2'>계</th><td>200,000</td></tr>
-</table>
-
 
 네이버 쇼핑에서 제품별 리뷰를 별점과 텍스트 리뷰를 함께 수집한 데이터이다.
 
@@ -51,7 +39,7 @@
 
 >[출처:git/KiimKii](https://github.com/KiimKii/nsrd)
 
-## 1.3 감성분석 순서
+### 1.3 감성분석 순서
 
 ![count](https://github.com/Kimseongchan1224/KOELECTRA_PJ/assets/79899868/904b9fad-aa94-47a7-8156-0912e1efe9a2)
 
@@ -65,6 +53,8 @@
 ## 2. 데이터
 
 ### 2.1 데이터 소스
+
+#### 원시데이터
 | ratings | reviews | label |
 |----------|---|---|
 | 5 | 배공빠르고 굿 | 1 |   
@@ -76,6 +66,17 @@
 | 1 | 주문을 11월6에 시켰는데 11월16일에 배송이 왔네요 .... | 0 |  
 | 2 | 넉넉한 길이로 주문했는데도 안 맞네요 별로예요 | 0 |  
 | 별점 | 고객이 남긴 텍스트 리뷰 | 부정(0), 긍정(1) | 
+
+#### 데이터 분포
+<table>
+<tr><th></th><th>별점</th><th>건수</th></tr>
+<tr><th rowspan='2'>긍정 (99,963)</th><th>5</th><td>81,177</td></tr>
+<tr><th>4</th><td>18,786</td></tr>
+<tr><th rowspan='2'>부정 (100,037)</th><th>2</th><td>63,989</td></tr>
+<tr><th>1</th><td>36,048</td></tr>
+<tr><th colspan='2'>계</th><td>200,000</td></tr>
+</table>
+
 ### 2.2 탐색적 데이터 분석
 
 ### 2.3 데이터 전처리

@@ -67,12 +67,12 @@
 
 #### 데이터 분포
 <table>
-<tr><th></th><th>별점</th><th>건수</th></tr>
-<tr><th rowspan='2'>긍정 (99,963)</th><th>5</th><td>81,177</td></tr>
-<tr><th>4</th><td>18,786</td></tr>
-<tr><th rowspan='2'>부정 (100,037)</th><th>2</th><td>63,989</td></tr>
-<tr><th>1</th><td>36,048</td></tr>
-<tr><th colspan='2'>계</th><td>200,000</td></tr>
+  <tr><th></th><th>별점</th><th>건수</th></tr>
+  <tr><th rowspan='2'>긍정 (99,963)</th><th>5</th><td>81,177</td></tr>
+  <tr><th>4</th><td>18,786</td></tr>
+  <tr><th rowspan='2'>부정 (100,037)</th><th>2</th><td>63,989</td></tr>
+  <tr><th>1</th><td>36,048</td></tr>
+  <tr><th colspan='2'>계</th><td>200,000</td></tr>
 </table>
 
 ### 2.2 탐색적 데이터 분석

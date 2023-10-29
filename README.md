@@ -94,7 +94,8 @@ print('전체 리뷰 개수 :',len(total_data)) # 전체 리뷰 개수 출력
 ```
 total_data['label'].value_counts().plot(kind = 'bar')
 ```
-![cap1](https://github.com/Kimseongchan1224/KOELECTRA_PJ/assets/79899868/8ceb52c7-37f4-48d2-b74b-e48e0f6e2443)
+![cap1](https://github.com/Kimseongchan1224/KOELECTRA_PJ/assets/79899868/f3176b37-a696-4328-a023-edfcf15f1ebd)
+
 
 #### 
 ### 2.3 데이터 전처리

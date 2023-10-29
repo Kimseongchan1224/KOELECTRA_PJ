@@ -95,8 +95,15 @@ print('전체 리뷰 개수 :',len(total_data)) # 전체 리뷰 개수 출력
 total_data['label'].value_counts().plot(kind = 'bar')
 ```
 ![cap1](https://github.com/Kimseongchan1224/KOELECTRA_PJ/assets/79899868/f3176b37-a696-4328-a023-edfcf15f1ebd)
-
-
+```
+print(total_data.groupby('label').size().reset_index(name = 'count'))
+```
+```
+   label   count
+0      0  100037
+1      1   99963
+```
+0과 1의 데이터의 수가 50:50의 비슷한 비율을 가지고 있다.
 #### 
 ### 2.3 데이터 전처리
 

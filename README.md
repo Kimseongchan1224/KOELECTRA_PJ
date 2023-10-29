@@ -90,6 +90,12 @@ print('전체 리뷰 개수 :',len(total_data)) # 전체 리뷰 개수 출력
 ```
 전체 리뷰 개수 : 200000
 ```
+총 20만개의 데이터 샘플이 존재한다.
+```
+total_data['label'].value_counts().plot(kind = 'bar')
+```
+![cap1](https://github.com/Kimseongchan1224/KOELECTRA_PJ/assets/79899868/8ceb52c7-37f4-48d2-b74b-e48e0f6e2443)
+
 #### 
 ### 2.3 데이터 전처리
 

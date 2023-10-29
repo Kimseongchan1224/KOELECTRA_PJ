@@ -103,6 +103,7 @@ print(total_data.groupby('label').size().reset_index(name = 'count'))
 0      0  100037
 1      1   99963
 ```
+0과 1 모두 약 1만개의 데이터로 50:50 비율을 가지고 있다.
 ```
 total_data['ratings'].value_counts().plot(kind = 'bar')
 ```
@@ -110,6 +111,7 @@ total_data['ratings'].value_counts().plot(kind = 'bar')
 ```
 print(total_data.groupby('ratings').size().reset_index(name = 'count'))
 ```
+
 ```
 ratings  count
 0        1  36048
@@ -117,7 +119,7 @@ ratings  count
 2        4  18786
 3        5  81177
 ```
-0과 1의 데이터의 수가 50:50의 비슷한 비율을 가지고 있다.
+고객이 남긴 별점 데이터의 수는 5점이 81177개, 2점이 63989개, 1점이 36048개, 4점이 18786개의 데이터를 보유하고 있다.
 #### 
 ### 2.3 데이터 전처리
 

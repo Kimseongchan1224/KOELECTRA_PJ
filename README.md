@@ -103,6 +103,20 @@ print(total_data.groupby('label').size().reset_index(name = 'count'))
 0      0  100037
 1      1   99963
 ```
+```
+total_data['ratings'].value_counts().plot(kind = 'bar')
+```
+![cap2](https://github.com/Kimseongchan1224/KOELECTRA_PJ/assets/79899868/235e7f15-1367-457e-9800-8e512ef7c2d8)
+```
+print(total_data.groupby('ratings').size().reset_index(name = 'count'))
+```
+```
+ratings  count
+0        1  36048
+1        2  63989
+2        4  18786
+3        5  81177
+```
 0과 1의 데이터의 수가 50:50의 비슷한 비율을 가지고 있다.
 #### 
 ### 2.3 데이터 전처리

@@ -119,7 +119,7 @@ ratings  count
 고객이 남긴 별점 데이터의 수는 <u>5</u>점이 81177개, <u>2</u>점이 63989개, <u>1</u>점이 36048개, <u>4</u>점이 18786개의 데이터를 보유하고 있다.
 #### 
 ### 2.3 데이터 전처리
-#### 중복 리뷰데이터 확인 제거
+#### 중복 리뷰데이터 
 ```
 print("서로 다른 데이터의 수 :" , data['reviews'].nunique())
 data.drop_duplicates(subset=['reviews'], inplace=True)

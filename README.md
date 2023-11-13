@@ -159,20 +159,20 @@ print(data[:5])
 <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=Jupyter&logoColor=white"/></a>
 
 ### 3.2  KOELECTRA fine-tuning
+#### 재학습 코드
 ```
-import pandas as pd
-import numpy as np
-from transformers import ElectraTokenizer, ElectraForSequenceClassification
-from transformers import get_linear_schedule_with_warmup, logging
-from sklearn.model_selection import train_test_split
-
-~~~
-
-print("\n\n** 모델 저장 **")
-save_path = 'koelectra_small'
-model.save_pretrained(save_path + ".pt")
-print("\n** 끝 **")
+1 import pandas as pd
+2 import numpy as np
+3 from transformers import ElectraTokenizer, ElectraForSequenceClassification
+4 from transformers import get_linear_schedule_with_warmup, logging
+5 from sklearn.model_selection import train_test_split
+.....
+127 print("\n\n** 모델 저장 **")
+128 save_path = 'koelectra_small'
+129 model.save_pretrained(save_path + ".pt")
+130 print("\n** 끝 **")
 ```
+#### 재학습 결과
 ```
 Epoch 1 of 4
 ** 학습 **
@@ -183,9 +183,7 @@ step : 20, loss : 0.5124896168708801
 step : 30, loss : 0.3685920238494873
 step : 40, loss : 0.6281218528747559
 Batch 50 of 750, 걸린 시간 : 0:03:56
-
-~~~
-
+.....
 step : 730, loss : 0.29961466789245605
 step : 740, loss : 0.17115184664726257
 평균 학습 오차(loss) : 0.21394821455081303

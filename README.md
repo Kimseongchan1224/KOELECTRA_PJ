@@ -173,5 +173,30 @@ save_path = 'koelectra_small'
 model.save_pretrained(save_path + ".pt")
 print("\n** 끝 **")
 ```
+```
+Epoch 1 of 4
+** 학습 **
+C:\Users\PC\Desktop\pythonProject3\finetune.py:95: UserWarning: torch.nn.utils.clip_grad_norm is now deprecated in favor of torch.nn.utils.clip_grad_norm_.
+  torch.nn.utils.clip_grad_norm(model.parameters(), 1.0)
+step : 10, loss : 0.6137053370475769
+step : 20, loss : 0.5124896168708801
+step : 30, loss : 0.3685920238494873
+step : 40, loss : 0.6281218528747559
+Batch 50 of 750, 걸린 시간 : 0:03:56
 
+~~~
+
+step : 730, loss : 0.29961466789245605
+step : 740, loss : 0.17115184664726257
+평균 학습 오차(loss) : 0.21394821455081303
+학습에 걸린 시간 : 0:57:39
+
+** 검증 **
+검증 정확도 : 0.914561170212766
+검증에 걸린 시간 : 0:06:45
+
+** 모델 저장 **
+** 끝 **
+Process finished with exit code 0
+```
 

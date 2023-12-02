@@ -157,6 +157,7 @@ data = data.dropna(how='any')
 <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=Jupyter&logoColor=white"/></a>
 
 ### 3.2  KOELECTRA fine-tuning
+20만 건의 데이터를 모두 재학습을 실행하기전 미리 3만건을 추출하여 진행하였다.
 #### 재학습 코드
 ```
 1 import pandas as pd
@@ -171,6 +172,7 @@ data = data.dropna(how='any')
 130 print("\n** 끝 **")
 ```
 #### 재학습 결과
+##### 3만 건의 리뷰데이터
 ```
 Epoch 1 of 4
 ** 학습 **
@@ -195,8 +197,43 @@ step : 740, loss : 0.17115184664726257
 ** 끝 **
 Process finished with exit code 0
 ```
-긍정과 부정의 비율을 1대1로 비슷하게 30,000건을 랜덤으로 추출하여 진행하였다.<br>
-검증 정확도 0.91456 정도로 약 90%의 정확도를 보여준다.
+##### 20만 건의 리뷰데이터
+```
+Epoch 1 of 4
+** 학습 **
+C:\Users\PC\Desktop\pythonProject3\finetune.py:95: UserWarning: torch.nn.utils.clip_grad_norm is now deprecated in favor of torch.nn.utils.clip_grad_norm_.
+  torch.nn.utils.clip_grad_norm(model.parameters(), 1.0)
+step : 10, loss : 0.688279390335083
+step : 20, loss : 0.5148629546165466
+step : 30, loss : 0.34149256348609924
+step : 40, loss : 0.7039090991020203
+Batch 50 of 5000, 걸린 시간 : 0:04:08
+
+.....
+
+Batch 4950 of 5000, 걸린 시간 : 6:57:50
+step : 4950, loss : 0.6933701038360596
+step : 4960, loss : 0.6931897401809692
+step : 4970, loss : 0.693198561668396
+step : 4980, loss : 0.693061113357544
+step : 4990, loss : 0.6931245923042297
+평균 학습 오차(loss) : 0.6931644094705581
+학습에 걸린 시간 : 7:02:04
+
+
+** 검증 **
+검증 정확도 : 0.4996
+검증에 걸린 시간 : 0:45:06
+
+
+** 모델 저장 **
+
+** 끝 **
+
+Process finished with exit code 0
+
+```
+
 #### 재학습 그래프
 
 ![그래프](https://github.com/Kimseongchan1224/KOELECTRA_PJ/assets/79899868/8b31f3c9-de55-4c02-a413-d398d7c2c3e0)

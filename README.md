@@ -239,7 +239,8 @@ Process finished with exit code 0
 3만건의 리뷰데이터는 검증 그래프를 보면 학습을 진행할수록 검증 정확도가 올라가는 것을 볼 수 있다. <br>
 또한 검증 정확도가 올라갈수록 평균 학습 오차도 줄어드는 것을 볼 수 있다. <br>
 #### 20만 건의 리뷰데이터
-![20그래프](https://github.com/Kimseongchan1224/KOELECTRA_PJ/assets/79899868/eafb94cc-1559-4268-a2cf-b18da53a2c5e)
+![20그래프](https://github.com/Kimseongchan1224/KOELECTRA_PJ/assets/79899868/d7e23aac-4c5c-4dd8-84d2-184d5eff65d4)
+
 
 20만건의 리뷰데이터는 검증 그래프를 보면 학습을 진행할수록 검증정확도가 내려가다가 유지한는 것을 볼 수 있다.
 평균 학습 오차의 그래프도 마찬가지로 점차 증가 하다가 일정 구간에서 유지하는 것을 볼 수 있다.
